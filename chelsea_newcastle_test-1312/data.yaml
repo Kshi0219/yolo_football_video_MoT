@@ -1,0 +1,17 @@
+names:
+- Ball
+- Chelsea
+- Chelsea Keeper
+- Newcastle
+- Newcastle Keeper
+- Refree
+nc: 6
+roboflow:
+  license: MIT
+  project: chelsea_newcastle_test
+  url: https://universe.roboflow.com/kshi2/chelsea_newcastle_test/dataset/1312
+  version: 1312
+  workspace: kshi2
+test: ../test/images
+train: chelsea_newcastle_test-1312/train/images
+val: chelsea_newcastle_test-1312/valid/images
